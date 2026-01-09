@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1" initial-scale="1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="index.CSS">
+</head>
+<body>
+    <div class="scroll-bg">
+        <div class="scroll-div">
+            <div class="scroll-object">
+    <header>
+        <h1>Survey form</h1>
+    </header>
+    <main>
+        <form id="survey-form">
+            
+            <div id="description">Let us know how can we improve our survice.</div>
+            
+            <!-- <fieldset class="fieldset"> -->
+                <div class="sub-group">
+                    <lable class="left" id="name-lable" for="name">*Name:</lable>
+                    <input type="text" name="name" class="right input-field" id="name" placeholder="Enter your name" required>
+                </div>
+                
+            <div class="sub-group">
+                <label for="email" class="left" id="email-lable">*Email:</label>
+                <input type="email" name="email-address" id="email" class="right input-field" placeholder="Enter your email" required>
+            </div>
+    
+            <div class="sub-group">
+                <lable for="number"class="left" id="number-lable">*Age:</lable>
+                <input type="number" name="Age" id="number" class="right input-field" placeholder="Enter your age" required>
+            </div>
+            
+            <div class="sub-group">
+                <label for="Contact-no." class="left" id="Contact-no">*Contact-no:</label>
+                <input type="tel" name="Contact-no." id="number" class="right input-field" placeholder="Enter your contact-no." required>
+            </div>
+            
+            <div class="sub-group">
+                <label for="dropdown" class="left" id="enquiry">Enquiry:</label>
+                <select name="dropdown" id="dropdown">
+                    <option selected disabled>Select an option</option>
+                    <option value="first">First Visit to the wibesite.</option>
+                    <option value="second">Friendly to the wibesite</option>
+                </select>
+            </div>
+            <!-- </fieldset> -->
+
+            <!-- <fieldset class="fieldset"> -->
+                <div class="sub-group">
+                    <label for="option" class="left">What items have you purchased from our website?</label>
+                    <ul style="list-style:none;" class="right">
+
+                    <li class="checkbox"><label><input type="checkbox" name="item" value="Aluminium section">Aluminium section</label></li>
+                    <li class="checkbox"><label><input type="checkbox" name="item" value="glases">Glasses</label></li>
+                    <li class="checkbox"><label><input type="checkbox" name="item" value="panel">panel</label></li>
+                    <li class="checkbox"><label><input type="checkbox" name="item" value="silicon">Silicon</label></li>
+                    <li class="checkbox"><label><input type="checkbox" name="item" value="screw">Screw</label></li>
+                </ul></div>
+            <!-- </fieldset>  -->
+
+        <!-- <fieldset class="fieldset">  -->
+            <div class="sub-group">
+                <label class="left" id="left-radio">Will you recommend the website to your friends?</label>
+                <ul style="list-style: none;" class="right">
+                    <li class="radio"><label><input type="radio" name="radio-button" value="1" class="recommendation">Yes</label></li>
+                    <li class="radio"><label><input type="radio" name="radio-button" value="2" class="recommendation">Maybe</label></li>
+                    <li class="radio"><label><input type="radio" name="radio-button" value="3" class="recommendation">No</label></li>
+                </ul>
+            </div>
+        <!-- </fieldset> -->
+    
+        <!-- <fieldset class="fieldset"> -->
+            <h2>Any comments or suggestion?</h2>
+            <div id="commentbox">
+                <textarea name="comment" rows="4" cols="35" placeholder="Enter your comment here"></textarea>
+                <br><br>
+                <input type="submit" id="submit">
+                <br><br>
+            </div>
+        <!-- </fieldset> -->
+    </main>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
