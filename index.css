@@ -1,0 +1,138 @@
+body{
+   background-color: rgb(249, 30, 81);
+}
+
+.scroll-bg{
+    background: rgb(249, 30, 81);;
+    width: 1000px;
+    margin: 7%auto;
+}
+
+.scroll-div{
+    width:1000px;
+    background: white;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+h1{
+    color: rgb(8, 8, 8);
+}
+
+header{
+    font-family: roboto;
+    font-size: 26px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#survey-form{
+    background-color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* max-width: 60%;
+    margin: auto;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 15px; */
+}
+
+#description{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 17px;
+    font-weight: bold;
+}
+
+.fieldset{
+    border-width: 0;
+    padding-top: 1%;
+}
+
+.sub-group{
+    position: relative;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.left{
+    width: 30%;
+    padding-right: 2%;
+    text-align: right;
+}
+
+.right{
+    width: 30%;
+}
+
+.input-field{
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #b2acac;
+    border-radius: 3px;
+}
+
+#dropdown{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    width: 30%;
+    border: 1px solid #b2acac;
+    border-radius: 3px;
+}
+
+.checkbox{
+    position: relative;
+    padding: 3px;
+    right: 3px;
+    bottom: 15px;
+}
+
+.radio{
+    position: relative;
+    padding: 3px;
+    bottom: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+#commentbox{
+    text-align: center;
+}
+
+textarea{
+   border-style:groove;
+   border-width: 3px;
+   width: 65%;
+   border-radius: 4px;
+}
+
+#submit{
+    background-color: #f9a79e;
+    font-family: roboto;
+    border-radius: 4px;
+    font-size: 23px;
+}
+
+label:hover{
+    cursor:pointer;
+}
+
+@media (max-width:800px){
+    body{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:580px){
+    body{
+        font-size: 9px;
+    }
+}
